@@ -1,0 +1,108 @@
+/*Cambio fondo, fuente y color al body*/
+body {
+    background-color: #FFF8F0;
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+}
+
+/*modifico el tamaño del logo*/
+.Encabezado{
+    background-color: #e4c4dd;
+ }
+.logo{
+    width: 10rem;
+    height: 10rem;  /*modifico también la altura a igua medida para que despues le aplique el border radius y forme un ciruculo porque sino cuando le aplique se va a formar una elipse porque la imagen no es cuadrada*/
+    border-radius: 50%;
+}
+.EncabezadoLogoTitulo{
+    display: flex;   /*Activando el flexbox lo que paso es que automáticamente se pusieron en linea el logo y el título*/
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.EncabezadoLinks{
+    display: flex; /*Uso de nuevo el display flex para que queden ubicados de manera horizontal los links*/
+    gap: 10px; /*le doy espacio entre sí a los enlaces para que no me quede todos pegados*/
+    justify-content: center;
+}
+
+.EncabezadoLinks li {   /*le doy estilo de botoncitos a los enlaces de las secciones*/
+    padding: 10px 20px;
+  background-color: #d964c0;
+  font-weight: bolder;  /*lo que hace el font weight bolder es poner en negrita las letras*/
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+h1 {   /*modifico los estilos de los títulos de h1*/
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color:#c35ec3
+}
+
+h2, h3, h4 { /*modifico los estios de los otros titulos*/
+    font-size: 2rem;
+     text-align: left;
+     font-family: "Poppins", sans-serif;
+     font-weight: bold;
+     color: #c35ec3;
+}
+ /*Cree una clase con el nombre Tituloh2 para centrar todos los títulos de cada sección*/
+.Tituloh2{
+    text-align: center;
+}
+
+/*estizo el footer cambiandole el fondo, el color y lo centro*/
+footer{
+    background-color: #c35ec3;
+    text-align: center;
+    color: #FFF8F0;
+}
+
+/*modifico el tamaño de las imagenes de las secciones*/
+img{
+    width: 25rem;
+}
+
+/*le saco las viñetas que vienen por default porque le agregué iconos*/
+ul { 
+    list-style-type: none; 
+    padding-left: 0; 
+    margin: 0; }
+/*modifico el tamaño de las imágenes de cada una de las secciones de la pagina inicio*/
+.ImgSeccionesPP{
+    width: 15rem;
+    height: 15rem;
+}
+
+.SeccionRazones, .SeccionRapidez, .SeccionNiveles{
+    display: flex;
+    vertical-align: top;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+  main section {
+    background-color: #f7e7f2;
+    padding: 1rem;
+    border-radius: 100px;
+    max-width: 60%;
+    margin: 2rem auto;
+  }
+
+  main{
+    background-color: hsl(127, 50%, 94%);
+    padding: 1rem;
+    border-radius: 100px;
+    max-width: 60%;
+    margin: 2rem auto;
+
+  }
+/*voy con las secciones*/
+.ContenedorImagen{
+    display: flex;
+    justify-content: center;
+}
