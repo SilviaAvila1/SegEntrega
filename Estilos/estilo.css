@@ -21,18 +21,20 @@ body {
     width: 100%;
 }
 
-.EncabezadoLinks{
-    display: flex; /*Uso de nuevo el display flex para que queden ubicados de manera horizontal los links*/
-    gap: 10px; /*le doy espacio entre sí a los enlaces para que no me quede todos pegados*/
-    justify-content: center;
-}
 
-.EncabezadoLinks li {   /*le doy estilo de botoncitos a los enlaces de las secciones*/
+/*lo que sigue no me sirve porque reemplacé el nav anterior por uno de bootstrap
+.EncabezadoLinks{
+    display: flex; /*Uso de nuevo el display flex para que queden ubicados de manera horizontal los links
+    gap: 10px; /*le doy espacio entre sí a los enlaces para que no me quede todos pegados
+    justify-content: center;
+}*/
+/*
+.EncabezadoLinks li {   /*le doy estilo de botoncitos a los enlaces de las secciones
     padding: 10px 20px;
   background-color: #d964c0;
-  font-weight: bolder;  /*lo que hace el font weight bolder es poner en negrita las letras*/
+  font-weight: bolder;  /*lo que hace el font weight bolder es poner en negrita las letras
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 5px;*/
 }
 
 h1 {   /*modifico los estilos de los títulos de h1*/
