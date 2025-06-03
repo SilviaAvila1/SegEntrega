@@ -1,34 +1,119 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Opiniones</title>
-    <link rel="stylesheet" href="../Estilos/estilo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Opiniones</title>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    crossorigin="anonymous"
+  />
+  <!-- Tu hoja de estilos personalizada -->
+  <link rel="stylesheet" href="../Estilos/estilo.css">
 </head>
-<header class="Encabezado">
-    <div class="EncabezadoLogoTitulo">
-     <img class="logo" src="../Imagenes/LogoPagina.png" alt="Logo de la página">
-     <h1 class="Titulo"> 🌸➕📐Clases de Matemática con Sil📐➕🌸</h1> <!--Título de la página-->
-     <img class="logo" src="../Imagenes/logoPagina.png" alt="Logo de la página">
+<body>
+  <!-- Encabezado -->
+  <header class="Encabezado">
+    <div class="EncabezadoLogoTitulo text-center py-3">
+      <img class="logo" src="../Imagenes/LogoPagina.png" alt="Logo de la página">
+      <h1 class="Titulo">🌸➕📐Clases de Matemática con Sil📐➕🌸</h1>
+      <img class="logo" src="../Imagenes/logoPagina.png" alt="Logo de la página">
     </div>
-    <nav >
-        <ul class="EncabezadoLinks">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../Paginas/SobreMi.html"> Sobre mi </a></li>
-            <li><a href="../Paginas/Reservas.html"> Reserva tu horario </a></li>
-            <li><a href="../Paginas/Opiniones.html"> Opiniones </a></li>
-            <li><a href="../Paginas/FAQ.html"> Preguntas frecuentes </a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <section class="Opiniones">
-    <img class="ImgOpiniones" src="../Imagenes/Opiniones.jpeg" alt="Poner una foto mia">
-<p>
-    hola hola Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi necessitatibus eligendi doloremque quisquam deserunt corporis iste, quidem ut voluptatem consectetur harum autem libero excepturi veritatis laborum at quae maxime quos nemo porro, laboriosam aliquam mollitia vitae ab! Voluptates repudiandae ipsam incidunt earum reprehenderit magnam placeat. Corporis nemo, unde cum assumenda magni voluptatem nulla natus quo accusamus quos iste a laudantium doloremque velit minima corrupti. Reiciendis quas tempora minima, earum totam necessitatibus iste nisi odio magnam doloribus quos neque rerum. Omnis accusamus vel, dignissimos assumenda quo aliquid! Repellendus et saepe assumenda minima, possimus placeat, enim ipsum illo sunt harum dicta incidunt quas temporibus ratione fuga, facere eos natus odit voluptate? Vero perspiciatis blanditiis eligendi et, facere exercitationem perferendis quas esse aliquam, odit nisi. Obcaecati, officia, earum labore molestias non nihil consectetur aliquam similique dolores nisi ducimus dolor totam ea quia autem mollitia consequuntur perferendis nesciunt fugiat perspiciatis beatae iusto. Repudiandae in tenetur magnam qui, sapiente tempore earum nemo, recusandae maiores facilis cum odit assumenda accusamus perspiciatis fugit minima, nobis veritatis quam? Architecto doloremque harum aperiam corporis nihil rem exercitationem totam nostrum dolores autem porro odit sint laborum perferendis, molestiae, voluptatem veritatis excepturi, accusamus quia delectus. Exercitationem eos at quos eaque mollitia?
-</p>
-</section>
-</main>
-<footer><p>Todos los derechos reservados - visitanos en nuestro Instagram @dkjshfksdjhf </p></footer>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido" aria-controls="navbarContenido" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarContenido">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a href="../index.html" class="nav-link active" aria-current="page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="../Paginas/SobreMi.html" class="nav-link">Sobre mí</a>
+        </li>
+        <li class="nav-item">
+          <a href="../Paginas/Opiniones.html" class="nav-link">Opiniones</a>
+          </li>
+        <li class="nav-item">
+          <a href="../Paginas/Reservas.html" class="nav-link">Reservá tu horario</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a href="../Paginas/FAQ.html" class="nav-link">Preguntas frecuentes</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  </header>
+<body>
+  <main class="container my-5">
+    <h2 class="mb-4 text-center">Opiniones</h2>
+
+    <div id="carouselOpiniones" class="carousel slide" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active text-center px-3">
+          <p class="fs-5 fst-italic">
+           
+"Gracias a las clases con Sil pude aprobar Álgebra después de haberla recursado dos veces. Explica con mucha claridad, es súper paciente y se nota que ama enseñar. Recomendada 100%."
+          </p>
+          <p><strong>- ✨ Camila R. – Estudiante de CBC (UBA)</strong></p>
+        </div>
+        <div class="carousel-item text-center px-3">
+          <p class="fs-5 fst-italic">
+            "Nunca me gustaron las matemáticas, pero con Sil empecé a entender y hasta a disfrutar. Me ayudó a subir mis notas y me dio mucha más confianza. ¡Gracias, profe!"
+          </p>
+          <p><strong>- 📚 Tomás V. – Estudiante de secundaria</strong></p>
+        </div>
+        <div class="carousel-item text-center px-3">
+          <p class="fs-5 fst-italic">"Volví a estudiar después de muchos años y estaba perdido. Sil me tuvo muchísima paciencia y adaptó cada clase a mi ritmo. Muy profesional y cálida."
+          </p>
+          <p><strong>- 🧮 Lucas A. – Adulto que se prepara para rendir el ingreso a la universidad</strong></p>
+        </div>
+        <div class="carousel-item text-center px-3">
+          <p class="fs-5 fst-italic">
+            "Las explicaciones de Sil son precisas y claras. Me ayudó a preparar parciales muy complicados. Además tiene buena onda y hace que las clases sean llevaderas."
+          </p>
+          <p><strong>- 🎓 Florencia M. – Estudiante de Profesorado de Matemática.</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Botones personalizados que usan JavaScript -->
+    <div class="botones-opiniones">
+      <button id="prevBtn">⬅ Anterior</button>
+      <button id="nextBtn">Siguiente ➡</button>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-center py-3">
+    <p>Todos los derechos reservados - visítanos en nuestro Instagram @dkjshfksdjhf</p>
+  </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <script>
+    const carousel = document.querySelector('#carouselOpiniones');
+    const carouselInstance = bootstrap.Carousel.getOrCreateInstance(carousel, {
+      interval: false
+    });
+
+    document.getElementById('prevBtn').addEventListener('click', () => {
+      carouselInstance.prev();
+    });
+
+    document.getElementById('nextBtn').addEventListener('click', () => {
+      carouselInstance.next();
+    });
+  </script>
 </body>
+</html>

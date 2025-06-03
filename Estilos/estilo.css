@@ -108,3 +108,48 @@ ul {
     display: flex;
     justify-content: center;
 }
+
+/*carrusel de texto en la sección opiniones*/
+
+.carousel-item {
+      transition: transform 1.2s ease; 
+    }
+
+    .botones-opiniones {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .botones-opiniones button {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      border: none;
+      background-color: #ffc0cb; 
+      border-radius: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .botones-opiniones button:hover {
+      background-color: #f89fb3;
+    }
+
+    .CajaContenido {
+  max-width: 900px;
+  background-color: #fce4ec; /* Rosa claro */
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bg-pink-light {
+    background-color: #ffe6f0; /* rosa suave */
+  }
+
+  @media (max-width: 576px) {
+    section.bg-pink-light {
+      padding: 2rem 1rem;
+      font-size: 1.1rem;
+      max-width: 100%;
+    }
+  }

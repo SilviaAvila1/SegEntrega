@@ -18,36 +18,39 @@
   </header>
 
   <!-- Navbar utilizando bootstrap -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido" aria-controls="navbarContenido" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarContenido">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link active" aria-current="page">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Ver más
-            </a>
-            <ul class="dropdown-menu">
-              <li><a href="Paginas/SobreMi.html" class="dropdown-item">Sobre mí</a></li>
-              <li><a href="Paginas/Reservas.html" class="dropdown-item">Reservá tu horario</a></li>
-              <li><a href="Paginas/Opiniones.html" class="dropdown-item">Opiniones</a></li>
-              <li><a href="Paginas/FAQ.html" class="dropdown-item">Preguntas frecuentes</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido" aria-controls="navbarContenido" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <!-- Contenido principal -->
+    <div class="collapse navbar-collapse" id="navbarContenido">
+      <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a href="../index.html" class="nav-link active" aria-current="page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="../Paginas/SobreMi.html" class="nav-link">Sobre mí</a>
+        </li>
+        <li class="nav-item">
+          <a href="../Paginas/Opiniones.html" class="nav-link">Opiniones</a>
+        <li class="nav-item">
+          <a href="../Paginas/Reservas.html" class="nav-link">Reservá tu horario</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a href="../Paginas/FAQ.html" class="nav-link">Preguntas frecuentes</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
   <main class="container my-5">
-    <!-- Sección: ¿Por qué tomar clases conmigo? -->
-    <section class="row align-items-center mb-5">
+  <!-- Sección: ¿Por qué tomar clases conmigo? -->
+  <div class="d-flex justify-content-center">
+    <section class="CajaContenido row align-items-center mb-5 p-4">
       <div class="col-md-6">
         <h2>¿Por qué tomar clases conmigo?</h2>
         <ul>
@@ -58,12 +61,14 @@
         </ul>
       </div>
       <div class="col-md-6">
-        <img src="Imagenes/Secciones.jpg" alt="Secciones" class="img-fluid rounded">
+        <img src="Imagenes/Secciones.jpg" class="img-fluid d-block mx-auto" alt="Descripción de la imagen">
       </div>
     </section>
+  </div>
 
-    <!-- Sección: ¡Super rápido! -->
-    <section class="row align-items-center mb-5">
+  <!-- Sección: ¡Super rápido! -->
+  <div class="d-flex justify-content-center">
+    <section class="CajaContenido row align-items-center mb-5 p-4">
       <div class="col-md-6 order-md-2">
         <h3>¡Super rápido!</h3>
         <ul>
@@ -73,12 +78,14 @@
         </ul>
       </div>
       <div class="col-md-6 order-md-1">
-        <img src="Imagenes/Secciones.jpg" alt="Secciones" class="img-fluid rounded">
+        <img src="Imagenes/Secciones.jpg" alt="Secciones" class="img-fluid rounded mx-auto d-block">
       </div>
     </section>
+  </div>
 
-    <!-- Sección: Niveles -->
-    <section class="row align-items-center mb-5">
+  <!-- Sección: Niveles -->
+  <div class="d-flex justify-content-center">
+    <section class="CajaContenido row align-items-center mb-5 p-4">
       <div class="col-md-6">
         <h4>Niveles</h4>
         <ul>
@@ -89,13 +96,14 @@
         </ul>
       </div>
       <div class="col-md-6">
-        <img src="Imagenes/Secciones.jpg" alt="Secciones" class="img-fluid rounded">
+        <img src="Imagenes/Secciones.jpg" alt="Secciones" class="img-fluid rounded mx-auto d-block">
       </div>
     </section>
-  </main>
+  </div>
+</main>
 
   <!-- Pie de página -->
-  <footer class="bg-light text-center py-3">
+  <footer class="bg-dark text-center py-3">
     <p>Todos los derechos reservados - visitanos en nuestro Instagram @dkjshfksdjhf</p>
   </footer>
 
